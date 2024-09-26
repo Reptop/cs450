@@ -1,0 +1,114 @@
+
+September 25th 2024:
+  You cannot make up quizzes - do them as fast as possible :0
+
+  Project Turn in Procedure:
+    include your .cpp file
+
+    a short pdf  containing:
+      - your name
+    
+      - Your email address
+      - Project number and title
+      - A description of what you did to get the display you got
+      - A cool-looking screen shot from your program
+      - The link to the Kaltura video demonstrating that your     project does what the requirements ask for. If you can, we'd appreciate it if you'd narrate your video so that you can tell us what it is doing.
+
+
+
+  -- Grades are based on accumulated points you get throuhgout the class
+
+  1020 points is an A!
+
+
+  you get bonus days -> start with 5 bonus days
+
+  you can only use 2 bonus days for one project
+
+
+  don't use bonus days bruh
+
+
+  weekly quizzes are open notes
+
+
+  breif history:
+    - started in the 1950s with pen plotting 
+
+    - in 1960, we could have vector displays, 
+      grad students made sketchpads and made VR goggles!
+
+    - in 1970s, direct view storage tubes, 
+      star wars episode IV -> george lucas did computer graphics
+
+    - in 1980s, yoooo pixar happened, nvidia!!!, scientific      visualization, jensen huang be insane back in 1984
+
+    - in 1990s, toy story 1, PC graphics cards!!!, 
+
+    - in 2000s, more movies and yea CG is not part of movies that
+      we donte even think about
+
+
+    - where are we now?
+      ongoing opengl stuff
+
+      we have insane virtual movie sets that use computer graphics
+
+
+
+    its hard to have a field where they dont need to see something without studying it
+
+    ray tracing was computationally taxing and was just not worth
+    it back then
+
+    even the super computers back then werent fast enough for raytracing
+
+    nvidia made the RTX gpus - where they made RT cores meant for 
+    raytracing - even now all I care about is rasterization
+
+
+    project notes are meant to give you a better grade!!!
+
+    I appreciate how he said office hours lurkers
+      ----- I think I will do that
+
+
+    put you name in your pdf bruh 
+
+    also just turn in 2 files - dont compress anything bruh
+
+
+    topology: shows how the object's vertices connect...
+
+    planar: you can only see one side of the object at a time 
+
+    convex: when you draw a line between two vertices of an object, that line is contained within the object
+
+
+    notice: triangles are so good for computer graphics because 
+            we can reuse their vertices and they are ALWAYS
+            CONVEX AND PLANAR
+
+    transformations:
+
+      these are all linear transformations 
+    
+      just scale the vectors, rotate it by mutliplying by rotations matrix, or translate them by adding values to each 
+      vector component
+
+      translations -> glTranslate(tx, ty, tz);
+
+      rotations    ->  glRotate(degrees, ax, ay, az);
+
+      scaling      ->  glScale(sxm sy, sz);
+
+
+
+      glMatrixMode(GL_MODELVIEW)
+
+
+      why do compound linear transformation take effect in reverse order?
+
+      when you want to transform something, just right it out in    english, then program it backwards
+
+
